@@ -128,7 +128,7 @@ void saveTxt(Mat &image, std::string path, std::string txt_name)
 
 int main()
 {
-	std::string path = "/home/su/code/DIP/";
+	std::string path = "/home/su/code/DIP/Hw2/";
     std::string savePath = "opt/";
     Mat origin = imread(path+"Chapter2_1.pgm", 0);
     
